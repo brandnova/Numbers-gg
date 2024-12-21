@@ -9,7 +9,7 @@
           v-model="playerName" 
           type="text" 
           placeholder="Enter your name" 
-          class="w-full p-2 mb-4 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+          class="w-full p-2 mb-4 border text-black rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
         >
         <p class="w-full flex">Difficulty:</p>
         <select 
@@ -42,7 +42,7 @@
         <input 
           v-model.number="guess" 
           type="number" 
-          class="w-full p-2 mb-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+          class="w-full p-2 mb-2 border text-black rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
           :disabled="gameOver"
           placeholder="Enter your guess"
           :class="{ 'shake-animation': shakeInput }"
